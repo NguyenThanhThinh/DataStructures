@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CountChar
 {
@@ -39,6 +37,7 @@ namespace CountChar
                 Console.WriteLine($"{number.Key} -- {number.Value}");
             }
             Console.ReadLine();
+
         }
     }
 }
